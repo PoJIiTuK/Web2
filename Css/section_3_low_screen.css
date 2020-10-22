@@ -1,0 +1,20 @@
+@media screen and (max-width: 800px) {
+    .section_3 {
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .section_3_text_1 {
+        text-align: center;
+        width: auto;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .section_3_text_2 {
+        text-align: center;
+        width: 100%;
+    }
+    .section_3_block {
+        margin-bottom: 25px;
+    }
+}

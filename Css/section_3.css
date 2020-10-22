@@ -1,0 +1,115 @@
+.section_3 {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.section_3_text_1 {
+    margin-top: 20px;
+    width: 30%;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.section_3_text_2 {
+    margin-top: 40px;
+    width: 35%;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+    /* border: 1px solid black; */
+}
+
+.section_3_info_blocks {
+    margin-top: 80px;
+    height: 53%;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+
+.section_3_block {
+    flex-direction: column;
+    align-items: center;
+    width: 350.46px;
+    height: 230px;
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.section_3_block:hover {
+    transition-duration: 0.5s;
+    border-color: #F53838;
+}
+
+.section_3_user_inf {
+    flex: 2;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid black; */
+}
+
+.section_3_user_inf_img {
+    justify-content: center;
+    flex: 2;
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid black; */
+}
+
+.section_3_user_inf_text {
+    flex: 4;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+
+.section_3_user_inf_text_name {
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid blue; */
+}
+
+.section_3_user_inf_text_adress {
+    height: 14px;
+    font-size: 14px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #4F5665;
+}
+
+.section_3_user_inf_rate {
+    flex: 2;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+.section_3_user_inf_rate_text {
+    width: 37.3px;
+    height: 25.48px;
+    display: flex;
+    align-items: center;
+    color: #0B132A;
+}
+
+.section_3_user_text {
+    flex: 4;
+    width: 297.89px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+}

@@ -1,0 +1,59 @@
+.section_4 {
+    z-index: 1;
+    margin-top: 149px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 40%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 30px 40px 30px rgb(0, 0, 0, 0.1);
+    /* border: 1px solid black; */
+}
+
+.section_4_text {
+    margin-left: 70px;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+
+.section_4_text_1 {
+    font-size: 35px;
+    line-height: 45px;
+    /* border: 1px solid black; */
+}
+
+.section_4_text_2 {
+    line-height: 30px;
+    color: #4F5665;
+    /* border: 1px solid black; */
+}
+
+.section_4_button_rectangle {
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    color: white;
+    margin-right: 8%;
+    width: 25%;
+    background: #F53838;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(245, 56, 56, 0.35);
+    /* border: 1px solid black; */
+    color: #FFFFFF;
+    border: 0;
+    transition: all 0.5s ease;
+
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    /* identical to box height, or 156% */
+}
+
+.section_4_button_rectangle:hover {
+    background: #a50505;
+}

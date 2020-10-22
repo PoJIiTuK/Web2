@@ -1,0 +1,54 @@
+html,
+body {
+    display: flex;
+    font-family: Rubik;
+    justify-content: center;
+    background: #fff;
+    /* background-size: 2423px auto; */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-weight: 500;
+    max-width: 2000px;
+    padding-top: 38px;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    /* width: 1441px; */
+    /* height: 2306.5px; */
+    /* border: 3px solid springgreen; */
+    background: #ffffff;
+}
+
+div {
+    display: flex
+}
+
+li {
+    display: flex;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    display: flex;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        padding-top: 0;
+        font-weight: 400;
+    }
+}

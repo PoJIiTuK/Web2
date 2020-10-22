@@ -1,0 +1,28 @@
+@media screen and (max-width: 800px) {
+    .section_2 {
+        width: 100%;
+        margin-top: 10px;
+        flex-direction: column;
+        height: auto;
+    }
+    .Illustration_2 {
+        order: 2;
+        width: 50%;
+    }
+    .section_2_right_column {
+        align-items: center;
+        margin-left: 4%;
+        width: 96%;
+        /* margin: 0 30px; */
+    }
+    .section_2_text_1 {
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .section_2_text_2 {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
